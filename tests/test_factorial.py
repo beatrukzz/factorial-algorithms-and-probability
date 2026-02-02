@@ -1,6 +1,11 @@
 # tests/test_factorial.py
 import pytest
-from src.factorial import factorial, factorial_recursive, factorial_memo
+from factorial_toolkit.factorial import (
+    factorial,
+    factorial_recursive,
+    factorial_memo,
+)
+
 
 def test_zero():
     assert factorial(0) == 1
