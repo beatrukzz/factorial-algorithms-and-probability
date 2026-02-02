@@ -10,5 +10,8 @@ authors = [{ name="Beatriz" }]
 readme = "README.md"
 requires-python = ">=3.10"
 
+[project.scripts]
+factorial = "factorial_toolkit.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
